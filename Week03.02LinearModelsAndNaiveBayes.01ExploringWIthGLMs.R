@@ -1,8 +1,10 @@
 library(h2o)
 h2o.init()
 
-url <- "https://raw.githubusercontent.com/rajkstats/Machine-Learning-with-h2O/master/datasets/smoking.csv"; url
-url <- "../../SourceCode/data/smoking.csv"; url
+#url <- "https://raw.githubusercontent.com/rajkstats/Machine-Learning-with-h2O/master/datasets/smoking.csv"; url
+
+url <- "https://raw.githubusercontent.com/tpopenfoose/Coursera.MachineLearningWithH2O.Rfiles/master/Data/Smoking.csv"
+#url <- "../../SourceCode/data/smoking.csv"; url
 data <- h2o.importFile(url)
 
 data
